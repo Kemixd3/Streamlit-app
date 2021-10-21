@@ -54,8 +54,8 @@ emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
 def hello():
     count = st_autorefresh(interval=2000,limit=2, key="fizzbuzzcounter")
 
-    The function returns a counter for number of refreshes. This allows the
-    ability to make special requests at different intervals based on the count
+    #The function returns a counter for number of refreshes. This allows the
+    #ability to make special requests at different intervals based on the count
     if count == 0:
         st.write("Count is zero")
     elif count % 3 == 0 and count % 5 == 0:
