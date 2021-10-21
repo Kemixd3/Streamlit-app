@@ -8,6 +8,7 @@ import time
 import random
 from random import randint
 from streamlit_player import st_player
+from streamlit_autorefresh import st_autorefresh
 import altair as alt
 import back as fl
 
@@ -50,21 +51,21 @@ emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
 
 # Run the autorefresh about every 2000 milliseconds (2 seconds) and stop
 # after it's been refreshed 100 times.
-#def hello():
-    #count = st_autorefresh(interval=2000,limit=2, key="fizzbuzzcounter")
+def hello():
+    count = st_autorefresh(interval=2000,limit=2, key="fizzbuzzcounter")
 
-    # The function returns a counter for number of refreshes. This allows the
-    # ability to make special requests at different intervals based on the count
-   # if count == 0:
-       # st.write("Count is zero")
-  #  elif count % 3 == 0 and count % 5 == 0:
-   #     st.write("FizzBuzz")
-#    elif count % 3 == 0:
-  #      st.write("Fizz")
- #   elif count % 5 == 0:
-      #  st.write("Buzz")
-  #  else:
-     #   st.write(f"Count: {count}")
+    The function returns a counter for number of refreshes. This allows the
+    ability to make special requests at different intervals based on the count
+    if count == 0:
+        st.write("Count is zero")
+    elif count % 3 == 0 and count % 5 == 0:
+        st.write("FizzBuzz")
+    elif count % 3 == 0:
+        st.write("Fizz")
+    elif count % 5 == 0:
+        st.write("Buzz")
+    else:
+        st.write(f"Count: {count}")
 
 #https://discuss.streamlit.io/t/regarding-layout-of-streamlit-web-app/9602/2
 #st.write(f"\n|Vil du Søge i databasen så skriv 1.|\n|Vil du se hele databasen skriv 2. |\n|Vil du tilføje til databasen tast 3.|\n|Vil du slette fra databasen tast 4: |\n|Vil du ændre på værdier i databasen tast 6.|\n| Vil du clear cmd tast 5:|\n|")
