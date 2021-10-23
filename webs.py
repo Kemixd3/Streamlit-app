@@ -15,7 +15,7 @@ import altair as alt
 #from dist.tost import pyarmor_runtime
 #import dist.tost as fl
 #fl.pyarmor_runtime()
-import tost as fl
+import dist.tost as fl
 
 
 #st.set_page_config
