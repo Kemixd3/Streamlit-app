@@ -11,9 +11,9 @@ from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
-os.system('"dist.tost.py"')
+#os.system('"dist.tost.py"')
 #from dist.tost import pyarmor_runtime
-import streamlit-app.dist.tost as fl
+import dist.tost as fl
 fl.pyarmor_runtime()
 
 
