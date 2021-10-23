@@ -12,6 +12,7 @@ from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
 from dist.teeest import g
+os.system('"teeest.py"')
 
 #st.set_page_config
 
@@ -162,7 +163,7 @@ c1, c2, c3 = st.columns([50,60,70])
 
 if st.sidebar.checkbox(f"Projekt 1 - Database"):
     
-    os.system('"teeest.py"')
+    
     option2 = True
     st.write(fl.g())
     slider_ph = st.empty()
