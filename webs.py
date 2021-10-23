@@ -10,8 +10,8 @@ from random import randint
 from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
-#import back as fl
-from dist.teeest import pyarmor_runtime
+import back as fl
+#from dist.teeest import pyarmor_runtime
 
 #st.set_page_config
 
