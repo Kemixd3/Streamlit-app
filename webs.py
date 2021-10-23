@@ -11,8 +11,9 @@ from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
-from dist.teeest import g
-os.system('"dist.teeest.py"')
+os.system('"dist.tost.py"')
+from dist.tost import g
+
 
 #st.set_page_config
 
