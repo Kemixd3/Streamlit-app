@@ -15,7 +15,7 @@ os.system('"python dist/tost.py"')
 #from dist.tost import pyarmor_runtime
 #import dist.tost as fl
 
-import dist.tost as fl
+import dist/tost as fl
 fl.pyarmor_runtime()
 
 
