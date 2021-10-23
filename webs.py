@@ -12,8 +12,9 @@ from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
 os.system('"dist.tost.py"')
-from dist.tost import pyarmor_runtime
-pyarmor_runtime()
+#from dist.tost import pyarmor_runtime
+import dist.tost as fl
+fl.pyarmor_runtime()
 
 
 #st.set_page_config
