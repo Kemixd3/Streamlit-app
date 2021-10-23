@@ -1,3 +1,5 @@
+
+os.system('"python dist/tost.py"')
 import pandas as pd
 import os
 import sys
@@ -11,16 +13,18 @@ from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
-os.system('"python dist/tost.py"')
+
+
+
 #from dist.tost import pyarmor_runtime
 #import dist.tost as fl
 
-import dist.tost as fl
+#import dist.tost as fl
 #fl.pyarmor_runtime()
 
 
 #st.set_page_config
-
+'
 st.set_page_config(
     page_title="Really cool app",
     page_icon="random",
