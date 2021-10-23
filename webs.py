@@ -13,7 +13,7 @@ import altair as alt
 #import back as fl
 os.system('"dist.tost.py"')
 #from dist.tost import pyarmor_runtime
-import app.streamlit-app.dist.tost as fl
+import streamlit-app.dist.tost as fl
 fl.pyarmor_runtime()
 
 
