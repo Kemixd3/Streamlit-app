@@ -24,7 +24,7 @@ import altair as alt
 
 
 #st.set_page_config
-'
+
 st.set_page_config(
     page_title="Really cool app",
     page_icon="random",
