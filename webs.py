@@ -1,5 +1,5 @@
 
-os.system('"python dist/tost.py"')
+#os.system('"python dist/tost.py"')
 import pandas as pd
 import os
 import sys
