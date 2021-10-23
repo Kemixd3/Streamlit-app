@@ -12,7 +12,7 @@ from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
 from dist.teeest import g
-os.system('"teeest.py"')
+os.system('"dist.teeest.py"')
 
 #st.set_page_config
 
