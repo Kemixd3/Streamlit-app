@@ -12,7 +12,7 @@ from streamlit_autorefresh import st_autorefresh
 import altair as alt
 #import back as fl
 os.system('"dist.tost.py"')
-from /app/streamlit-app/dist/tost import g
+from dist.tost import g
 
 
 #st.set_page_config
