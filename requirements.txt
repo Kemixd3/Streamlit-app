@@ -1,4 +1,5 @@
 altair==4.1.0
+pyarmor==6.8.1
 argon2-cffi==21.1.0
 astor==0.8.1
 attrs==21.2.0
