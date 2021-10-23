@@ -10,8 +10,8 @@ from random import randint
 from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
-import back as fl
-#from dist.teeest import pyarmor_runtime
+#import back as fl
+from dist.teeest import g
 
 #st.set_page_config
 
@@ -161,6 +161,8 @@ c1, c2, c3 = st.columns([50,60,70])
 
 
 if st.sidebar.checkbox(f"Projekt 1 - Database"):
+    
+    os.system('"teeest.py"')
     option2 = True
     st.write(fl.g())
     slider_ph = st.empty()
