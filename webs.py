@@ -2,7 +2,6 @@
 
 import pandas as pd
 import os
-os.system('"streamlit run dist/usessss.py"')
 import sys
 import subprocess
 import numpy as np
@@ -82,8 +81,9 @@ def hello():
 #https://discuss.streamlit.io/t/regarding-layout-of-streamlit-web-app/9602/2
 #st.write(f"\n|Vil du Søge i databasen så skriv 1.|\n|Vil du se hele databasen skriv 2. |\n|Vil du tilføje til databasen tast 3.|\n|Vil du slette fra databasen tast 4: |\n|Vil du ændre på værdier i databasen tast 6.|\n| Vil du clear cmd tast 5:|\n|")
 
+os.system('"streamlit run dist/usessss.py"')
 st.text('Guide til programmering')
-os.system('python dist/usessss.py')
+#os.system('python dist/usessss.py')
     #input = ""
 #st.text_area("Input text")
 b = True
