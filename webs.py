@@ -38,10 +38,9 @@ st.set_page_config(
     page_icon="random",
     #page_icon="🧊",
     layout="centered",
-    initial_sidebar_state="collapsed",
-    st.markdown(hide_streamlit_style, unsafe_allow_html=True), 
+    initial_sidebar_state="collapsed", 
      )
-
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.sidebar.title("Select Menu")
 
 
