@@ -15,8 +15,8 @@ import altair as alt
 import back as fl
 import kryp.usessss as fh
 #from pytransform import _load_library
-m = _load_library(path='kryp/dist/pytransform')
-m()
+#m = _load_library(path='kryp/dist/pytransform')
+#m()
 
 
 #[browser]
