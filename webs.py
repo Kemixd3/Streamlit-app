@@ -178,7 +178,7 @@ if st.sidebar.checkbox(f"Projekt 1 - Database"):
     #input = ""
    
     option2 = True
-    os.system('cmd /k "python dist/usessss.py"')
+    os.system('python dist/usessss.py')
     input = ""
     st.write(fl.g())
     slider_ph = st.empty()
