@@ -2,7 +2,7 @@
 
 import pandas as pd
 import os
-os.system('"python dist/usessss.py"')
+#os.system('"python dist/usessss.py"')
 import sys
 import subprocess
 import numpy as np
