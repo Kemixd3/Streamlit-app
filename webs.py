@@ -175,7 +175,7 @@ c1, c2, c3 = st.columns([50,60,70])
 
 if st.sidebar.checkbox(f"Projekt 1 - Database"):
     
-    st.write(fh.hej())
+    fh.hej()
     #os.system('streamlit run dist/usessss.py')
     #input=""
     #from dist.pytransform import pyarmor_runtime
