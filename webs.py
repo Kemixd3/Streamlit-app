@@ -179,7 +179,7 @@ if st.sidebar.checkbox(f"Projekt 1 - Database"):
    
     option2 = True
     os.system('python dist/usessss.py')
-    input = ""
+    #input = ""
     st.write(fl.g())
     slider_ph = st.empty()
     info_ph = st.empty()
