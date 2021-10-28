@@ -4,7 +4,7 @@ import os
 #pyarmor_runtime()
 
 import streamlit as st
-from pytransform import pyarmor_runtime
+#from pytransform import pyarmor_runtime
 pyarmor_runtime('dist/pytransform')
 
         
