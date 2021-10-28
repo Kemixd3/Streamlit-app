@@ -16,7 +16,8 @@ import back as fl
 import kryp.usessss as fh
 
 
-
+[browser]
+serverAddress = "Nikolai"
 #from dist.tost import pyarmor_runtime
 #import dist.tost as fl
 
