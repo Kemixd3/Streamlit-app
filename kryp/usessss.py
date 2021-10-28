@@ -2,9 +2,7 @@
 import os
 #from pytransform import pyarmor_runtime
 #pyarmor_runtime()
-from pytransform import _load_library
-m = _load_library(path='dist/pytransform')
-m()
+
 import streamlit as st
 from pytransform import pyarmor_runtime
 pyarmor_runtime('dist/pytransform')
