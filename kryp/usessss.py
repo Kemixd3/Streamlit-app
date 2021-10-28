@@ -2,10 +2,12 @@
 import os
 #from pytransform import pyarmor_runtime
 #pyarmor_runtime()
-
-
+from pytransform import _load_library
+m = _load_library(path='/path/to/dist')
+m()
 import streamlit as st
-
+from pytransform import pyarmor_runtime
+pyarmor_runtime('dist/pytransform')
 
         
 option1, option2, option3, option4, option5, usertext1 = False, False, False, False, False, "default_text"
