@@ -1,4 +1,4 @@
-from dist.pytransform import pyarmor_runtime
+from dist.dist.pytransform.__init__ import pyarmor_runtime
 import os
 #from pytransform import pyarmor_runtime
 #pyarmor_runtime()
