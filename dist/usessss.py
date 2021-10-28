@@ -41,5 +41,4 @@ def hej():
 
             def setup(self):
                 st.write("lol")
-
-        input = ""
+input = ""
