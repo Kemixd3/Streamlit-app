@@ -5,7 +5,7 @@ import os
 
 import streamlit as st
 #from pytransform import pyarmor_runtime
-pyarmor_runtime('dist/pytransform')
+#pyarmor_runtime('dist/pytransform')
 
         
 option1, option2, option3, option4, option5, usertext1 = False, False, False, False, False, "default_text"
