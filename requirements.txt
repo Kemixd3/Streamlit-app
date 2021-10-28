@@ -50,9 +50,6 @@ MDAnalysis==2.0.0
 mistune==0.8.4
 mmtf-python==1.1.2
 msgpack==1.0.2
-mysql==0.0.3
-mysql-connector-python==8.0.26
-mysqlclient==2.0.3
 Naked==0.1.31
 nbclient==0.5.4
 nbconvert==6.1.0
